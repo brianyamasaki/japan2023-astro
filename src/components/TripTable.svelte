@@ -39,7 +39,6 @@
     margin-top: 1rem;
     height: 100%;
     width: 100%;
-    border: 1px solid red;
   }
 
   ul {

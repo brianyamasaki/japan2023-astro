@@ -2,59 +2,59 @@
 import Layout from '../layouts/Layout.astro';
 import TripTable from '../components/TripTable.svelte';
 import type { DestInfo } from '../components/includes';
+import { tokyo1PDs } from '../photos-descriptions/tokyo1';
 
 const destInfos: DestInfo[] = [
 	{
 		cityName: 'Tokyo',
-		photoSrcDir: '../../public/tokyo1',
-		photosSrc: [],
+		photoSrcDir: '/assets/tokyo1',
+		photos: tokyo1PDs,
 		transportSrc: '/assets/airplane1_red.png',
 		dateString: 'April 5 - 7'
 	},
 	{
 		cityName: 'Takayama',
 		photoSrcDir: '../../public/takayama',
-		photosSrc: [],
+		photos: tokyo1PDs,
 		transportSrc: '',
 		dateString: 'April 8 - 10'
 	},
 	{
 		cityName: 'Kanazawa',
 		photoSrcDir: '../../public/kanazawa',
-		photosSrc: [],
+		photos: tokyo1PDs,
 		transportSrc: '',
 		dateString: 'April 11 - 14'
 	},
 	{
 		cityName: 'Hiroshima',
 		photoSrcDir: '../../public/hiroshima',
-		photosSrc: [],
+		photos: tokyo1PDs,
 		transportSrc: '',
 		dateString: 'April 15 - 16'
 	},
 	{
 		cityName: 'Miyajima',
 		photoSrcDir: '../../public/miyajima',
-		photosSrc: [],
+		photos: tokyo1PDs,
 		transportSrc: '',
 		dateString: 'April 17'
 	},
 	{
 		cityName: 'Okayama',
 		photoSrcDir: '../../public/okayama',
-		photosSrc: [],
+		photos: tokyo1PDs,
 		transportSrc: '',
 		dateString: 'April 18 - 19'
 	},
 	{
 		cityName: 'Tokyo',
 		photoSrcDir: '../../public/tokyo2',
-		photosSrc: [],
+		photos: tokyo1PDs,
 		transportSrc: '',
 		dateString: 'April 20'
 	}
 ];
-
 
 ---
 

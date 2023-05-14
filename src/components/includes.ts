@@ -1,7 +1,12 @@
+export type PhotoDescription = {
+  src: string;
+  description: string;
+};
+
 export type DestInfo = {
   cityName: string;
   photoSrcDir: string;
-  photosSrc: string[];
+  photos: PhotoDescription[];
   transportSrc: string;
   dateString: string;
 }
