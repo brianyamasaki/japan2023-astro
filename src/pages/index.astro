@@ -1,56 +1,51 @@
 ---
+import { getCollection } from 'astro:content';
+import type { DestInfo } from '../includes';
 import Layout from '../layouts/Layout.astro';
 import TripTable from '../components/TripTable.svelte';
-import type { DestInfo } from '../components/includes';
-import { tokyo1PDs } from '../photos-descriptions/tokyo1';
+
+const allDestPosts = await getCollection('destinations');
 
 const destInfos: DestInfo[] = [
 	{
 		cityName: 'Tokyo',
-		photoSrcDir: '/assets/tokyo1',
-		photos: tokyo1PDs,
+		collection: allDestPosts.filter((post) => (post.data.destination === 'Tokyo1')),
 		transportSrc: '/assets/airplane1_red.png',
 		dateString: 'April 5 - 7'
 	},
 	{
 		cityName: 'Takayama',
-		photoSrcDir: '../../public/takayama',
-		photos: tokyo1PDs,
+		collection: allDestPosts.filter((post) => (post.data.destination === 'Takayama')),
 		transportSrc: '',
 		dateString: 'April 8 - 10'
 	},
 	{
 		cityName: 'Kanazawa',
-		photoSrcDir: '../../public/kanazawa',
-		photos: tokyo1PDs,
+		collection: allDestPosts.filter((post) => (post.data.destination === 'Kanazawa')),
 		transportSrc: '',
 		dateString: 'April 11 - 14'
 	},
 	{
 		cityName: 'Hiroshima',
-		photoSrcDir: '../../public/hiroshima',
-		photos: tokyo1PDs,
+		collection: allDestPosts.filter((post) => (post.data.destination === 'Hiroshima')),
 		transportSrc: '',
 		dateString: 'April 15 - 16'
 	},
 	{
 		cityName: 'Miyajima',
-		photoSrcDir: '../../public/miyajima',
-		photos: tokyo1PDs,
+		collection: allDestPosts.filter((post) => (post.data.destination === 'Miyajima')),
 		transportSrc: '',
 		dateString: 'April 17'
 	},
 	{
 		cityName: 'Okayama',
-		photoSrcDir: '../../public/okayama',
-		photos: tokyo1PDs,
+		collection: allDestPosts.filter((post) => (post.data.destination === 'Tokyo2')),
 		transportSrc: '',
 		dateString: 'April 18 - 19'
 	},
 	{
 		cityName: 'Tokyo',
-		photoSrcDir: '../../public/tokyo2',
-		photos: tokyo1PDs,
+		collection: allDestPosts.filter((post) => (post.data.destination === 'tokyo1')),
 		transportSrc: '',
 		dateString: 'April 20'
 	}
@@ -60,7 +55,7 @@ const destInfos: DestInfo[] = [
 
 <Layout title="Japan 2023">
 	<main>
-		<h1>Our 2003 Japan Trip</h1>
+		<h1>Our 2023 Japan Trip</h1>
 		<TripTable destInfos={destInfos} client:idle/>
 	</main>
 </Layout>

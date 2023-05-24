@@ -1,18 +1,40 @@
 <script lang="ts">
+  import { onMount, onDestroy } from 'svelte'
   import DestinationDetails from './DestinationDetails.svelte';
-  import type { DestInfo } from './includes';
+  import type { DestInfo } from '../includes';
+  import {getUrlParams, setUrlParams } from './pageUtils';
+  import { destState } from './destState';
+  import type { Unsubscriber } from 'svelte/store';
 
   // incoming attributes
   export let destInfos:DestInfo[];
 
-  let selectedIndex: number = -1;
+  let idest: number;
+
+  const onClickDestination = (idestT: number) => {
+    if (idestT !== destState.getDest()) {
+      destState.setDPP(idestT, 0, 0);
+    }
+    setUrlParams(idestT, 0, 0);
+  }
+
+  const unsubState = destState.subscribeDest(val => {idest = val});
+
+  onMount(() => {
+    const parms = getUrlParams();
+    destState.setDPP(parms.idest, parms.ipost, parms.iphoto);
+  });
+
+  onDestroy(() => {
+    unsubState();
+  })
 </script>
 
 <div class="flexy">
   <div class="dest-list">
     <ul>
       {#each destInfos as destInfo, i}
-        <li on:click={() => {selectedIndex = i;}} class="{i === selectedIndex ? 'selected' : ''}">
+        <li on:click={() => onClickDestination(i)} class="{i === idest ? 'selected' : ''}">
           {destInfo.cityName}
         </li>
       {/each}
@@ -20,9 +42,7 @@
   </div>
 
   <div class="content" >
-    {#if selectedIndex  >= 0} 
-      <DestinationDetails destInfo={destInfos[selectedIndex]} />
-    {/if}
+    <DestinationDetails {destInfos} />
   </div>
 </div>
 
@@ -65,10 +85,6 @@
       text-decoration: underline;
     }
 
-  }
-
-  h2 {
-      text-align: center;
   }
   
 </style>
