@@ -83,5 +83,16 @@
     }
 
   }
+
+  @media (max-width: 750px) {
+    li {
+      font-size: 1.5rem;
+      padding: 0.5rem 0;
+      &:hover,
+      &.selected {
+        padding: 0 0 .5rem 2rem;
+      }
+    }
+  }
   
 </style>
