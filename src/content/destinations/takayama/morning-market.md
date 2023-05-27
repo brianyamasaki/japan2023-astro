@@ -27,4 +27,4 @@ We passed by a wood carver's shop and saw this in the window. It's Nancy's famil
 
 ![Dango](/assets/takayama/PXL_20230409_003611204.jpg)
 
-We bought dango, which is small mochi covered with a sweetened soy sauce ccoating.
+We bought dango, which is small skewered mochi that is charcoal grilled, then covered with a sweetened soy sauce coating.

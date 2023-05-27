@@ -14,10 +14,10 @@
 <div class="container markdown">
   <PostHeader {destInfo} />
   
-  {#if destInfo.collection[$ipostStore].body}
+  {#if destInfo.collection.length > 0}
     <SvelteMarkdown source={destInfo.collection[$ipostStore].body} />
   {:else}
-    <p>Post not found.</p>
+    <p>No posts found</p>
   {/if}
   <PostHeader {destInfo} />
 </div>
@@ -26,7 +26,6 @@
   .container {
     margin-left: 1rem;
     text-align:center;
-    user-select: none;
   }
 
   button {
