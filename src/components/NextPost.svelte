@@ -13,6 +13,7 @@
       const nextPost = $ipostStore + increment;
       setUrlParams($idestStore, nextPost, $iphotoStore)
       ipostStore.set(nextPost);
+      window.scrollTo(0,0);
     }
   }}
   class={isDisabled ? "disabled" : ""}
