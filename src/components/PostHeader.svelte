@@ -12,14 +12,14 @@
     increment={-1}
     isDisabled={$ipostStore > 0 ? false : true}
   > 
-    Previous Post
+    &lt; Previous Post 
   </NextPost>
   
   <NextPost 
     increment={1}
     isDisabled={$ipostStore < destInfo.collection.length-1 ? false : true}
   > 
-    Next Post
+    Next Post &gt;
   </NextPost>
 </div>
 

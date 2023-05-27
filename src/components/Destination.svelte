@@ -19,6 +19,7 @@
   {:else}
     <p>Post not found.</p>
   {/if}
+  <PostHeader {destInfo} />
 </div>
 
 <style lang="scss">
