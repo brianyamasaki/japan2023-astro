@@ -1,3 +1,4 @@
+import { idestStore, ipostStore, iphotoStore } from './destState';
 const destParam = "dest";
 const postParam = "post";
 const photoParam = "photo";
@@ -19,9 +20,7 @@ export const getUrlParams = () => {
   const destStr = SearchParams.get(destParam);
   const postStr = SearchParams.get(postParam);
   const photoStr = SearchParams.get(photoParam);
-  return {
-    idest: !destStr ? 0 : parseInt(destStr, 10),
-    ipost: !postStr ? 0 : parseInt(postStr, 10),
-    iphoto: !photoStr ? 0 : parseInt(photoStr, 10)
-  }
+  idestStore.set(!destStr ? 0 : parseInt(destStr, 10));
+  ipostStore.set(!postStr ? 0 : parseInt(postStr, 10));
+  iphotoStore.set(!photoStr ? 0 : parseInt(photoStr, 10))
 }

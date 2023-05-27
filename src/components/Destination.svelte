@@ -1,40 +1,43 @@
 <script lang="ts">
+  import SvelteMarkdown from 'svelte-markdown';
+  import PostHeader from './PostHeader.svelte';
+  import type { DestInfo } from '../includes';
+  import { ipostStore } from './destState';
 
-  import type { DestInfo } from './includes';
+  import './markdown.scss';
 
   // incoming attributes
   export let destInfo:DestInfo;
 
 </script>
 
-<div class="container">
-  <h2>{destInfo.cityName}</h2>
+<div class="container markdown">
+  <PostHeader {destInfo} />
+  
+  {#if destInfo.collection[$ipostStore].body}
+    <SvelteMarkdown source={destInfo.collection[$ipostStore].body} />
+  {:else}
+    <p>Post not found.</p>
+  {/if}
 </div>
 
 <style lang="scss">
   .container {
-    position:relative;
+    margin-left: 1rem;
+    text-align:center;
+    user-select: none;
   }
 
-  h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 4rem;
-    padding: 0;
-    margin: 0;
-    transition: .75s;
-    transform: rotate(-10deg);
-    opacity: 0.5;
-    &:hover {
-      padding: 0 0 .5rem 5rem;
-      font-weight: 700;
-      transform: none;
-      opacity: 1;
-      cursor:pointer;
-      text-decoration: underline;
-    }
+  button {
+    padding: .5rem;
+    background: pink;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.5rem;
   }
 
-
-
+  button:disabled {
+    color: lightgray;
+    background: white;
+  }
 </style>

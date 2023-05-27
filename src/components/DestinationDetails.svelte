@@ -25,16 +25,43 @@
   })
 
   const changeSelectedImg = (increment: number) => {
-    const iphotoNext = iphoto + increment;
+    const iphotoNext = destState.getPhoto() + increment;
     destState.setPhoto(iphotoNext);
     setUrlParams(idest, ipost, iphotoNext);
   }
 
   const changeSelectedPost = (increment: number) => {
-    const ipostNext = ipost + increment;
-    destState.setPost(ipostNext);
+    const ipostNext = destState.getPost() + increment;
+    destState.setDPP(idest, ipostNext, 0);
     setUrlParams(idest, ipostNext, 0);
   }
+
+  const canSelectPost = (ip: number): boolean => {
+    if (ip < 0) return false;
+    if (ip >= destInfo.collection.length) return false;
+
+    return true;
+  }
+
+  const maxTitleLength = 20;
+  const incPostTitle = (ip:number): string => {
+    if (canSelectPost(ip)) {
+      const title = destInfo.collection[ip].data.title;
+      if (title.length > maxTitleLength) {
+        return title.substring(0, maxTitleLength).concat('...');
+      }
+      return title;
+    }
+    return "";
+  }
+
+  const canSelectPhoto = (ip: number): boolean => {
+    if (ip < 0) return false;
+    if (ip >= destInfo.collection[ipost].data.imgs.length) return false;
+
+    return true;
+  }
+
 </script>
 
 <div>
@@ -48,21 +75,21 @@
       </div>
       <button 
         on:click={() => changeSelectedImg(-1)}
-        disabled={iphoto === 0 ? true : false}
+        disabled={!canSelectPhoto(destState.getPhoto() - 1)}
       >
         Previous Photo
       </button>
       <button 
         on:click={() => changeSelectedImg(1)}
-        disabled={iphoto === post.data.imgs.length - 1 ? true : false}
+        disabled={!canSelectPhoto(destState.getPhoto() + 1)}
       >
         Next Photo
       </button>
-      <button 
-        disabled={ipost < destInfo.collection.length - 1 ? false : true}
+      <button class="anchor-style"
+        disabled={!canSelectPost(destState.getPost() + 1)}
         on:click={() => changeSelectedPost(1) }
       >
-        Next Post
+        {incPostTitle(1)}
       </button>
       {#each post.data.imgs as image, iimg}
         <div class={iphoto !== iimg ? 'markdown hide' : 'markdown'}>
@@ -99,6 +126,14 @@
 
   .hide { 
     display: none;
+  }
+
+  .anchor-style {
+    background: none;
+    border: none;
+    font-weight: 700;
+    color: blue;
+    text-decoration: underline;
   }
 
   .markdown {

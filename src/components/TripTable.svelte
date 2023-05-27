@@ -1,40 +1,37 @@
 <script lang="ts">
-  import { onMount, onDestroy } from 'svelte'
-  import DestinationDetails from './DestinationDetails.svelte';
+  import { onMount } from 'svelte';
+  // import DestinationDetails from './DestinationDetails.svelte';
+  import Destination from './Destination.svelte';
   import type { DestInfo } from '../includes';
   import {getUrlParams, setUrlParams } from './pageUtils';
-  import { destState } from './destState';
-  import type { Unsubscriber } from 'svelte/store';
+  import { idestStore, ipostStore, iphotoStore } from './destState';
 
   // incoming attributes
   export let destInfos:DestInfo[];
 
-  let idest: number;
-
-  const onClickDestination = (idestT: number) => {
-    if (idestT !== destState.getDest()) {
-      destState.setDPP(idestT, 0, 0);
-    }
-    setUrlParams(idestT, 0, 0);
-  }
-
-  const unsubState = destState.subscribeDest(val => {idest = val});
-
   onMount(() => {
-    const parms = getUrlParams();
-    destState.setDPP(parms.idest, parms.ipost, parms.iphoto);
-  });
-
-  onDestroy(() => {
-    unsubState();
+    getUrlParams();
+    window.addEventListener('popstate', (event) => {
+      getUrlParams();
+    })
   })
+
 </script>
 
 <div class="flexy">
   <div class="dest-list">
     <ul>
       {#each destInfos as destInfo, i}
-        <li on:click={() => onClickDestination(i)} class="{i === idest ? 'selected' : ''}">
+        <li 
+          on:click={() => {
+            idestStore.set(i);
+            ipostStore.set(0);
+            iphotoStore.set(0);
+            setUrlParams(i, 0, 0);
+
+          }} 
+          class={i === $idestStore ? 'selected' : ''}
+        >
           {destInfo.cityName}
         </li>
       {/each}
@@ -42,7 +39,7 @@
   </div>
 
   <div class="content" >
-    <DestinationDetails {destInfos} />
+    <Destination destInfo={destInfos[$idestStore]} />
   </div>
 </div>
 

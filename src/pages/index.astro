@@ -6,46 +6,50 @@ import TripTable from '../components/TripTable.svelte';
 
 const allDestPosts = await getCollection('destinations');
 
+const justDestPosts = (dest:string) => {
+	return allDestPosts.filter((post) => (post.data.destination === dest)).sort((postA, postB) => (postA.data.order - postB.data.order))
+}
+
 const destInfos: DestInfo[] = [
 	{
 		cityName: 'Tokyo',
-		collection: allDestPosts.filter((post) => (post.data.destination === 'Tokyo1')),
+		collection: justDestPosts('Tokyo1'),
 		transportSrc: '/assets/airplane1_red.png',
 		dateString: 'April 5 - 7'
 	},
 	{
 		cityName: 'Takayama',
-		collection: allDestPosts.filter((post) => (post.data.destination === 'Takayama')),
+		collection: justDestPosts('Takayama'),
 		transportSrc: '',
 		dateString: 'April 8 - 10'
 	},
 	{
 		cityName: 'Kanazawa',
-		collection: allDestPosts.filter((post) => (post.data.destination === 'Kanazawa')),
+		collection: justDestPosts('Kanazawa'),
 		transportSrc: '',
 		dateString: 'April 11 - 14'
 	},
 	{
 		cityName: 'Hiroshima',
-		collection: allDestPosts.filter((post) => (post.data.destination === 'Hiroshima')),
+		collection: justDestPosts('Hiroshima'),
 		transportSrc: '',
 		dateString: 'April 15 - 16'
 	},
 	{
 		cityName: 'Miyajima',
-		collection: allDestPosts.filter((post) => (post.data.destination === 'Miyajima')),
+		collection: justDestPosts('Miyajima'),
 		transportSrc: '',
 		dateString: 'April 17'
 	},
 	{
 		cityName: 'Okayama',
-		collection: allDestPosts.filter((post) => (post.data.destination === 'Tokyo2')),
+		collection: justDestPosts('Okayama'),
 		transportSrc: '',
 		dateString: 'April 18 - 19'
 	},
 	{
 		cityName: 'Tokyo',
-		collection: allDestPosts.filter((post) => (post.data.destination === 'tokyo1')),
+		collection: justDestPosts('Tokyo2'),
 		transportSrc: '',
 		dateString: 'April 20'
 	}
