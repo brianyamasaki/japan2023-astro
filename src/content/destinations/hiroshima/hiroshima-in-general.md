@@ -18,7 +18,7 @@ These windows give fantastic natural life during breakfast.
 
 ![breakfast for brian](/assets/hiroshima/PXL_20230415_222942779.jpg)
 
-Brian is getting ready to eat his ham and cheese omelet, one of the morning breakfasts made by the staff.
+Brian is getting ready to eat his ham and cheese crepe, one of the morning breakfasts made by the staff.
 
 ![Bigger Bathroom?](/assets/hiroshima/PXL_20230415_070602988.jpg)
 
@@ -32,4 +32,17 @@ We collected an awful lot of gifts from friends and relatives and we bought gift
 
 ![Ready for Transport](/assets/hiroshima/PXL_20230415_234615806.MP.jpg)
 
-Brian packs it well!
+Brian packs the box to forward to Narita airport. This makes it much easier to travel to our next few destination, without carrying this extra box.
+
+![Breakfast again](/assets/hiroshima/PXL_20230416_222904788.jpg)
+
+A sweet crepe instead of savory on our last day in the hotel.
+
+![The breakfast room again](/assets/hiroshima/PXL_20230416_223318461.jpg)
+
+![McDonald's menu](/assets/hiroshima/PXL_20230416_235043172.MP.jpg)
+
+![Hiroshima Streetcars](/assets/hiroshima/PXL_20230417_000238639.jpg)
+
+![](/assets/hiroshima/PXL_20230416_072619958.jpg)
+
