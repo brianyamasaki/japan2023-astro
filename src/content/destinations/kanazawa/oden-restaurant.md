@@ -21,11 +21,11 @@ imgs:
 
 ![Selfie](/assets/kanazawa/PXL_20230412_015723135.MP.jpg)
 
-Selfie outside the Oden restaurant recommended by [Just One Cookbook](https://www.justonecookbook.com/historic-kanazawa-japan/). This restaurant is deep in the heart of the train station, near the high class gift shops of the station.
-
-Her description of the restaurant is as follows: 
+Selfie outside the Oden restaurant recommended by [Just One Cookbook](https://www.justonecookbook.com/historic-kanazawa-japan/). Her description of the restaurant is as follows: 
 
 > This Oden shop has been around for more than 60 years and currently run by the 3rd generation of the family. The food was amazingly good, but they only allow you 90 minutes to eat since there’s a line of people waiting.
+
+This restaurant is deep in the heart of the train station, near the high class gift shops of the station.
 
 ![Food 1](/assets/kanazawa/PXL_20230412_021501846.jpg)
 

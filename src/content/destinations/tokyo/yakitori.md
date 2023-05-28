@@ -11,7 +11,7 @@ imgs:
     comment: Satoru, Yukoh, Nancy and Brian sitting in their booth.
 ---
 
-Nancy's friend Yukoh lived in Seattle for many years before moving back to Tokyo. She took us to an authentic yakitori bar. 
+Nancy's friend Yuko lived in Seattle for many years before moving back to Tokyo. She took us to an authentic yakitori bar. 
 
 **Interesting Business Model:** The drinks are free for the first two hours as long as you keep ordering food (beer and mixed drinks as well as soft drinks).
 
