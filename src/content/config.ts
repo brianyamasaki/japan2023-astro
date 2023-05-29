@@ -10,7 +10,8 @@ const destCollection = defineCollection({
     imgs: z.array(z.object({
       src: z.string(),
       comment: z.string()
-    }))
+    })),
+    transport: z.string().optional()
   })
 })
 

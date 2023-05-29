@@ -17,6 +17,10 @@ Japanese manhole covers are really beautiful. In fact, beautiful manhole covers 
 
 This is a man hole cover in Ueno Park, a famous location to see cherry tree blossoms in the Spring.
 
+![Kichijoji cover](/assets/tokyo1/PXL_20230407_234805940.jpg)
+
+This is from Kichijoji, a bedroom community west of Tokyo. 
+
 ![Hiroshima Carp](/assets/hiroshima/PXL_20230415_060530963.jpg)
 
 This man hole cover was in Hiroshima. Their baseball team is the Carp.

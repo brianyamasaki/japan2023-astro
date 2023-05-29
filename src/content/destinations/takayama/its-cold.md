@@ -11,6 +11,7 @@ imgs:
     comment: Snow is getting pretty heavy!
   - src: /assets/takayama/PXL_20230409_042352445.jpg
     comment: Mountains are dusted with snow
+transport: /assets/takayama/transportTickets.jpg
 ---
 # It's Very Cold in Takayama
 

@@ -7,6 +7,7 @@ subtitle: Placeholder
 imgs: 
   - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
     comment: On this flight, Business Class **is** First Class. 
+transport: /assets/miyajima/transportTickets.jpg
 ---
  
 # Arriving in Miyajima
