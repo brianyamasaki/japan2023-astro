@@ -8,8 +8,10 @@ imgs:
   - src: /assets/tokyo1/PXL_20230406_093711849.MP.jpg
     comment: A quick selfie showing the surroundings of this yakitori bar.
   - src: /assets/tokyo1/PXL_20230406_115702010.jpg
-    comment: Satoru, Yukoh, Nancy and Brian sitting in their booth.
+    comment: Satoru, Yuko, Nancy and Brian sitting in their booth.
 ---
+
+# An Authentic Japanese Yakitori Dive Bar
 
 Nancy's friend Yuko lived in Seattle for many years before moving back to Tokyo. She took us to an authentic yakitori bar. 
 
@@ -21,4 +23,4 @@ A quick selfie showing the surroundings of this yakitori bar.
 
 ![The gang](/assets/tokyo1/PXL_20230406_115702010.jpg)
 
-Satoru, Yukoh, Nancy and Brian sitting in their booth.
+Satoru, Yuko, Nancy and Brian sitting in their booth.
