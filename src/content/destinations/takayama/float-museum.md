@@ -3,16 +3,7 @@ destination: Takayama
 order: 50
 date: April 7, 2023
 title: Takayama's Festival Float Museum
-subtitle: Some of the buildings in this part of town are over 600 years old
-imgs: 
-  - src: /assets/takayama/PXL_20230409_013416702.jpg
-    comment: A selfie
-  - src: /assets/takayama/PXL_20230409_014118375.jpg
-    comment: These are huge
-  - src: /assets/takayama/PXL_20230409_015427366.jpg
-    comment: A detail from one of the floats
-  - src: /assets/takayama/PXL_20230409_015650131.jpg
-    comment: Selfie in front of these gigantic floats
+nextTitle: Float Museum
 ---
 
 # Takayama's Festival Float Museum

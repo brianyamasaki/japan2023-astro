@@ -1,10 +1,20 @@
 <script lang="ts">
   import NextPost from "./NextPost.svelte";
-  import { ipostStore } from './destState';
+  import { idestStore, ipostStore } from './destState';
   import type { DestInfo } from '../includes';
+  import type { CollectionEntry } from "astro:content";
 
   // incoming attributes
-  export let destInfo:DestInfo;
+  export let destInfos:DestInfo[];
+  const maxLength = 25;
+
+  const getPostTitle = (post: CollectionEntry<'destinations'>) => {
+    const { nextTitle } = post.data;
+    if (nextTitle.length <= maxLength) {
+      return nextTitle;
+    }
+    return `${nextTitle.substring(0, maxLength - 3)}...`;
+  }
 </script>
 
 <div>
@@ -12,14 +22,14 @@
     increment={-1}
     isDisabled={$ipostStore > 0 ? false : true}
   > 
-    &lt; Previous Post 
+    {$ipostStore > 0 ? `< ${getPostTitle(destInfos[$idestStore].collection[$ipostStore - 1])}` : ''}
   </NextPost>
   
   <NextPost 
     increment={1}
-    isDisabled={$ipostStore < destInfo.collection.length-1 ? false : true}
+    isDisabled={$ipostStore < destInfos[$idestStore].collection.length-1 ? false : true}
   > 
-    Next Post &gt;
+    {$ipostStore < destInfos[$idestStore].collection.length-1 ? `${getPostTitle(destInfos[$idestStore].collection[$ipostStore + 1])} >` : ''}
   </NextPost>
 </div>
 

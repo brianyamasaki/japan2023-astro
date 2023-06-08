@@ -3,17 +3,14 @@ destination: Kanazawa
 order: 50
 date: April 7, 2023
 title: The phonograph museum
-subtitle: Now this is random
-imgs: 
-  - src: /assets/kanazawa/PXL_20230412_015723135.MP.jpg
-    comment: Selfie outside the Oden restaurant recommended by JOC
+nextTitle: The Phongraph Museum
 ---
 
 # The Kanazawa Phonograph Museum
 
-Brian was so excited to see this museum because he thought there would be all sorts of record players from the 20s all the way through to the 90s covering inexpensive consoles to high fidelity turntables. Didn't work out that way, though.
+Brian was so excited to see this museum because he thought there would be all sorts of record players from the 1920s all the way through to the 90s covering inexpensive consoles to high fidelity turntables. Didn't work out that way, though.
 
-The museum was started by a collector who kept buying antique record players from around the world. A world who had moved on from wax cylinder recording to antique formats, lacquers and 78s and finally LPs and singles. The world was moving on to digital music and high fidelity and this collector wanted to remember the beautiful wood cabinets and brass cones.
+The museum was started by a collector who kept buying antique record players from around the world. A world that had moved on from wax cylinder recording to antique formats, lacquers and 78s and finally LPs and singles. The world was moving on to digital music, streaming and high fidelity while this collector wanted to remember the beautiful wood cabinets and brass cones from a century in the past.
 
 ![The ticket](/assets/kanazawa/PXL_20230413_031302454.jpg)
 
@@ -29,7 +26,7 @@ This is close to the kind of turntable Brian had in college. And there's a huge 
 
 ![That's a big horn](/assets/kanazawa/PXL_20230413_032017382.jpg)
 
-That's a big, brass horn. Amplification in the old days was all about big horns, not electricity. In fact, most of these classic record players were hand cranked, not electric.
+That's a big, brass horn. Amplification in the old days was all about big horns, not electricity. In fact, most of these classic record players were hand cranked, not electric. And check out that hand carved wooden cabinet.
 
 ![That's a paper cup](/assets/kanazawa/PXL_20230413_032424057.jpg)
 
@@ -37,11 +34,11 @@ To prove the point of amplification with cones, this is a record player that use
 
 ![Leaded glass](/assets/kanazawa/PXL_20230413_032922561.PORTRAIT.jpg)
 
-Beautiful rendition of an old time phonograph.
+Beautiful rendition of an old time phonograph in stained glass.
 
 ![A classic](/assets/kanazawa/PXL_20230413_033019048.jpg)
 
-Because these record players were so large and took up an enormous amount of room in your living rooms, great care was taken to make them look bveautiful. The style and wood work was exceptional.
+Because these record players were so large and took up an enormous amount of room in your living rooms, great care was taken to make them look beautiful. The style and wood work was exceptional.
 
 ![Nice photo](/assets/kanazawa/PXL_20230413_040401845.jpg)
 

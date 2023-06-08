@@ -3,14 +3,7 @@ destination: Takayama
 order: 60
 date: April 7, 2023
 title: Just Wandering About
-subtitle: Some random things we liked
-imgs: 
-  - src: /assets/takayama/PXL_20230409_020219937.jpg
-    comment: Shinto Torii
-  - src: /assets/takayama/PXL_20230409_024919679.jpg
-    comment: It's Girls' Day
-  - src: /assets/takayama/PXL_20230409_025107051.jpg
-    comment: Nancy Makes a Point
+nextTitle: Wandering Around Takayama
 ---
 
 # Just Wandering Around Takayama

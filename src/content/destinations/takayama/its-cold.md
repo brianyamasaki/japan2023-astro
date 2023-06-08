@@ -3,14 +3,7 @@ destination: Takayama
 order: 1
 date: April 7, 2023
 title: Very Cold in Takayama
-subtitle: Takayama is in the Japanese Alps
-imgs: 
-  - src: /assets/takayama/PXL_20230408_093919802.jpg
-    comment: We arrived in Takayama and it starts snowing
-  - src: /assets/takayama/PXL_20230408_094422358.MP.jpg
-    comment: Snow is getting pretty heavy!
-  - src: /assets/takayama/PXL_20230409_042352445.jpg
-    comment: Mountains are dusted with snow
+nextTitle: Snow in Takayama
 transport: /assets/takayama/transportTickets.jpg
 ---
 # It's Very Cold in Takayama

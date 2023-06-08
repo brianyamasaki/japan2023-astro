@@ -3,10 +3,7 @@ destination: Kanazawa
 order: 30
 date: April 7, 2023
 title: Out and About in Kanazawa
-subtitle: Foo
-imgs: 
-  - src: /assets/kanazawa/PXL_20230412_015723135.MP.jpg
-    comment: Selfie outside the Oden restaurant recommended by JOC
+nextTitle: Around Kanazawa
 ---
 
 # Out and About in Kanazawa

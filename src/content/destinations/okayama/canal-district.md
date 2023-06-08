@@ -3,10 +3,7 @@ destination: Okayama
 order: 30
 date: April 4, 2023
 title: The Canal District
-subtitle: Placeholder
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: The Canal District
 ---
 
 # The Canal District

@@ -2,11 +2,8 @@
 destination: Tokyo1
 order: 40
 date: April 7, 2023
-title: Shopping in Kappabashi
-subtitle: Japanese manhole covers are really beautiful
-imgs: 
-  - src: /assets/tokyo1/PXL_20230407_070445984.jpg
-    comment: This is a man hole cover in Ueno Park, a famous location to see cherry tree blossoms in the Spring.
+title: Manhole Covers
+nextTitle: Manhole Covers
 ---
 
 # Manhole Covers?

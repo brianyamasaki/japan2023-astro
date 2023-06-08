@@ -3,10 +3,7 @@ destination: Kanazawa
 order: 40
 date: April 7, 2023
 title: A day in Kenrokuen Park
-subtitle: One of the three most beautiful gardens in Japan
-imgs: 
-  - src: /assets/kanazawa/PXL_20230412_015723135.MP.jpg
-    comment: Selfie outside the Oden restaurant recommended by JOC
+nextTitle: Kenrokuen Park
 ---
 
 # A Day in Kenrokuen Park

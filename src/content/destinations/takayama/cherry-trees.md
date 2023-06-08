@@ -3,14 +3,7 @@ destination: Takayama
 order: 30
 date: April 7, 2023
 title: Cherry Trees in Bloom
-subtitle: We missed the cherry tree blooms in Tokyo, but not in Takayama
-imgs: 
-  - src: /assets/takayama/PXL_20230409_003850195.jpg
-    comment: Strawberry Daifuku to the rescue
-  - src: /assets/takayama/PXL_20230409_003925976.jpg
-    comment: Nancy's family crest, carved out of wood
-  - src: /assets/takayama/PXL_20230409_003948620.jpg
-    comment: We bought dango, which is small mochi covered with a sweet soy flavoring
+nextTitle: Cherry Blossoms
 ---
 
 # We caught the cherry tree blooms in Japan

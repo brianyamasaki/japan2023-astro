@@ -3,14 +3,7 @@ destination: Takayama
 order: 10
 date: April 7, 2023
 title: Takayama's morning market
-subtitle: Every morning has a farmer's market in Takayama
-imgs: 
-  - src: /assets/takayama/PXL_20230409_002004689.MP.jpg
-    comment: Strawberry Daifuku to the rescue
-  - src: /assets/takayama/PXL_20230409_003227471.jpg
-    comment: Nancy's family crest, carved out of wood
-  - src: /assets/takayama/PXL_20230409_003611204.jpg
-    comment: We bought dango, which is small mochi covered with a sweet soy flavoring
+nextTitle: The Morning Market
 ---
 
 # Takayama's morning market

@@ -3,10 +3,7 @@ destination: Hiroshima
 order: 1
 date: April 4, 2023
 title: Train station lunch boxes
-subtitle: Phone cameras can help you buy things
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Hiroshima Station
 ---
 
 # Train Station Lunch Boxes

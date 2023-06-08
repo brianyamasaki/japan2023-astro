@@ -2,19 +2,8 @@
 destination: Kanazawa
 order: 20
 date: April 7, 2023
-title: A Famous Oden Testaurant
-subtitle: We missed the cherry tree blooms in Tokyo, but not in Takayama
-imgs: 
-  - src: /assets/kanazawa/PXL_20230412_015723135.MP.jpg
-    comment: Selfie outside the Oden restaurant recommended by JOC
-  - src: /assets/kanazawa/PXL_20230412_021501846.jpg
-    comment: shot 1
-  - src: /assets/kanazawa/PXL_20230412_021519681.jpg
-    comment: shot 2
-  - src: /assets/kanazawa/PXL_20230412_021956115.jpg
-    comment: Croquettes
-  - src: /assets/kanazawa/PXL_20230412_022143123.MP.jpg
-    comment: Our very small table.
+title: A Famous Oden Restaurant
+nextTitle: Oden Restaurant
 ---
 
 # Kuroyuri - A Famous Oden Restaurant

@@ -6,11 +6,7 @@ const destCollection = defineCollection({
     order: z.number(),
     date: z.string(),
     title: z.string(),
-    subtitle: z.string(),
-    imgs: z.array(z.object({
-      src: z.string(),
-      comment: z.string()
-    })),
+    nextTitle: z.string(),
     transport: z.string().optional()
   })
 })

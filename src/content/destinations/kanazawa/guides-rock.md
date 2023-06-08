@@ -3,10 +3,7 @@ destination: Kanazawa
 order: 70
 date: April 7, 2023
 title: Guided Kanazawa
-subtitle: We meet our own personal guide
-imgs: 
-  - src: /assets/kanazawa/PXL_20230412_015723135.MP.jpg
-    comment: Selfie outside the Oden restaurant recommended by JOC
+nextTitle: Guided Kanazawa
 ---
 
 # Our Personal Guide to Kanazawa

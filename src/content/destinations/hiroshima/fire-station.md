@@ -3,10 +3,7 @@ destination: Hiroshima
 order: 40
 date: April 4, 2023
 title: Hiroshima Fire Station
-subtitle: We visit a Hiroshima Fire Station
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Hiroshima Fire Station
 ---
 
 # We Visit A Hiroshima Fire Station

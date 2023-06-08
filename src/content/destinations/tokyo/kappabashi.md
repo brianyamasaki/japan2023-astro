@@ -3,16 +3,7 @@ destination: Tokyo1
 order: 45
 date: April 7, 2023
 title: Shopping in Kappabashi
-subtitle: Kappabashi is where you buy kitchen and restaurant supplies 
-imgs: 
-  - src: /assets/tokyo1/PXL_20230407_055634797.jpg
-    comment: Want any knives anybody?
-  - src: /assets/tokyo1/PXL_20230407_062028440.MP.jpg
-    comment: This is the plastic food often decorating restaurant windows to entice customers to come inside to eat.
-  - src: /assets/tokyo1/PXL_20230407_062033442.MP.jpg
-    comment: More plastic food.
-  - src: /assets/tokyo1/PXL_20230407_063146080.jpg
-    comment: More plastic food.
+nextTitle: Kappabashi
 ---
 
 ## Kappabashi is where you buy kitchen and restaurant supplies 

@@ -39,7 +39,7 @@
   </div>
 
   <div class="content" >
-    <Destination destInfo={destInfos[$idestStore]} />
+    <Destination destInfos={destInfos} />
   </div>
 </div>
 

@@ -3,10 +3,7 @@ destination: Miyajima
 order: 30
 date: April 4, 2023
 title: Leaving the Ryokan
-subtitle: Placeholder
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Leaving the Ryokan
 ---
 
 # Leaving the Ryokan and Miyajima

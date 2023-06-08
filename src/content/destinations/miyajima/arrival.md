@@ -3,10 +3,7 @@ destination: Miyajima
 order: 1
 date: April 4, 2023
 title: Arriving in Miyajima
-subtitle: Placeholder
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Arriving in Miyajima
 transport: /assets/miyajima/transportTickets.jpg
 ---
  

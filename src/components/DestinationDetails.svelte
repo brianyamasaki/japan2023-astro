@@ -3,7 +3,6 @@
   import SvelteMarkdown from 'svelte-markdown';
   import { setUrlParams } from './pageUtils';
   import type { DestInfo } from '../includes';
-  import { destState } from './destState';
   import type { Unsubscriber } from 'svelte/store';
 
   // incoming attributes

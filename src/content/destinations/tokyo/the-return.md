@@ -3,10 +3,7 @@ destination: Tokyo2
 order: 1
 date: April 4, 2023
 title: Return to Tokyo
-subtitle: Placeholder
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Placeholder
 transport: /assets/tokyo2/transportTickets.jpg
 ---
 

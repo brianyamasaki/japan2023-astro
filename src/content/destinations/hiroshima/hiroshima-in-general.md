@@ -3,10 +3,7 @@ destination: Hiroshima
 order: 20
 date: April 4, 2023
 title: In, Out and About
-subtitle: Smorgasbord of goodness
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Around Hiroshima
 ---
 
 # In, Out and About

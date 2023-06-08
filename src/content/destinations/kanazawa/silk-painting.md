@@ -3,10 +3,7 @@ destination: Kanazawa
 order: 70
 date: April 7, 2023
 title: The Silk Painting Experience
-subtitle: Where we get to hand paint silk
-imgs: 
-  - src: /assets/kanazawa/PXL_20230412_015723135.MP.jpg
-    comment: Selfie outside the Oden restaurant recommended by JOC
+nextTitle: Silk Painting Experience
 ---
 
 # The Silk Painting Experience

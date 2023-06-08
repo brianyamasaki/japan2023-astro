@@ -3,14 +3,7 @@ destination: Tokyo1
 order: 50
 date: April 7, 2023
 title: Omakase Sushi
-subtitle: The restaurant is ours
-imgs: 
-  - src: /assets/tokyo1/PXL_20230407_083022927.MP.jpg
-    comment: Our sushi chef for the evening.
-  - src: /assets/tokyo1/PXL_20230407_085331646.MP.jpg
-    comment: Nancy, Satori, Natsuko and Ayako take a selfie while at the bar
-  - src: /assets/tokyo1/PXL_20230407_085339092.MP.jpg
-    comment: Masaharu, Brian and Nancy
+nextTitle: Tokyo Omakase
 ---
 
 # This Sushi Restaurant is All Ours Tonight

@@ -3,15 +3,12 @@ destination: Okayama
 order: 10
 date: April 4, 2023
 title: Welcome to the Blue Jeans District
-subtitle: Placeholder
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Kojima Blue Jeans
 ---
 
 # Welcome to the Blue Jeans District
 
-Back in the 1960s, [the area around the Kojima station](https://www.japan.travel/en/japan-magazine/exploring-jeans-street-in-kojima-city-dyed-in-indigo/) was known for manufacturing blue jeans, primarily exported to America. Levi Strauss actually contracted to [manufacture blue jeans here in Kojima](https://foundland.com/journal/kojima-japan-s-denim-capital/). Blue Jeans are [still manufactured and sold here](https://www.okayama-japan.jp/en/spot/906) and are now [super premium](https://www.vogue.com/article/best-japanese-denim-brands-selvedge-jeans) and totally customizable (and priced accordingly).
+Back in the 1960s, [the area around the Kojima station](https://www.japan.travel/en/japan-magazine/exploring-jeans-street-in-kojima-city-dyed-in-indigo/) was known for manufacturing blue jeans, primarily exported to America. Levi Strauss actually contracted to [manufacture blue jeans here in Kojima](https://foundland.com/journal/kojima-japan-s-denim-capital/). Blue Jeans are [still manufactured and sold here](https://www.okayama-japan.jp/en/spot/906) and are now [super premium, totally customizable, and priced accordingly)](https://www.vogue.com/article/best-japanese-denim-brands-selvedge-jeans).
 
 
 ![jeans stairway](/assets/okayama/PXL_20230418_045717351.MP.jpg)

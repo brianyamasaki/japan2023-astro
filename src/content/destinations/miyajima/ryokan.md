@@ -3,10 +3,7 @@ destination: Miyajima
 order: 20
 date: April 4, 2023
 title: Ryokan Juseiko 
-subtitle: Placeholder
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Ryokan Juseiko
 ---
  
 # Ryokan Juseiko
@@ -93,7 +90,7 @@ Kind of fun to see a sign welcoming you to your lodgings. Perhaps not great for 
 
 ![](/assets/miyajima/PXL_20230417_102737337.jpg)
 
-![](/assets/miyajima/PXL_20230417_104629350.PORTRAIT.jpg.jpg)
+![](/assets/miyajima/PXL_20230417_104629350.PORTRAIT.jpg)
 
 ![](/assets/miyajima/PXL_20230417_110417720.jpg)
 

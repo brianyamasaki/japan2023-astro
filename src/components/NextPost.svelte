@@ -25,7 +25,7 @@
 <style lang="scss">
   button {
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: calc(1vw + 1.5vmin);
     background: none;
     border: none;
   }

@@ -3,10 +3,7 @@ destination: Miyajima
 order: 20
 date: April 4, 2023
 title: Summiting Miyajima
-subtitle: Placeholder
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Summiting Miyajima
 ---
  
 # Climbing Miyajima

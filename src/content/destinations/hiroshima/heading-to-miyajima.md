@@ -3,10 +3,7 @@ destination: Hiroshima
 order: 50
 date: April 4, 2023
 title: Heading to Miyajima
-subtitle: We head over to Miyajima
-imgs: 
-  - src: /assets/tokyo1/PXL_20230404_212059635.MP.jpg
-    comment: On this flight, Business Class **is** First Class. 
+nextTitle: Heading to Miyajima
 ---
 
 # Heading to Miyajima

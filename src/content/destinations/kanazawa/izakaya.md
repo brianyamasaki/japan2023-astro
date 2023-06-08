@@ -3,14 +3,7 @@ destination: Kanazawa
 order: 10
 date: April 7, 2023
 title: A random Izakaya in Kanazawa
-subtitle: This izakaya was for locals
-imgs: 
-  - src: /assets/kanazawa/PXL_20230411_100037775.jpg
-    comment: Selfie at the Izakaya we chose
-  - src: /assets/kanazawa/PXL_20230411_111109085.NIGHT.jpg
-    comment: The Izakaya we chose to try for dinner
-  - src: /assets/kanazawa/PXL_20230411_100508790.PORTRAIT.ORIGINAL.jpg
-    comment: Hijiki
+nextTitle: Kanazawa Izakaya
 ---
 
 # We eat at an Izakaya

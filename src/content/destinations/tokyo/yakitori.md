@@ -3,12 +3,7 @@ destination: Tokyo1
 order: 30
 date: April 7, 2023
 title: An Authentic Japanese Yakitori Dive Bar
-subtitle: We visit an authentic Yakitori Bar.
-imgs: 
-  - src: /assets/tokyo1/PXL_20230406_093711849.MP.jpg
-    comment: A quick selfie showing the surroundings of this yakitori bar.
-  - src: /assets/tokyo1/PXL_20230406_115702010.jpg
-    comment: Satoru, Yuko, Nancy and Brian sitting in their booth.
+nextTitle: The Yakitori Bar
 ---
 
 # An Authentic Japanese Yakitori Dive Bar

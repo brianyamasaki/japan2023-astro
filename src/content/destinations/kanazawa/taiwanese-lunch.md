@@ -3,10 +3,7 @@ destination: Kanazawa
 order: 60
 date: April 7, 2023
 title: The Taiwanese Lunch
-subtitle: How spicy can this be?
-imgs: 
-  - src: /assets/kanazawa/PXL_20230412_015723135.MP.jpg
-    comment: Selfie outside the Oden restaurant recommended by JOC
+nextTitle: Taiwanese Cuisine
 ---
 
 # The Taiwanese cuisine lunch

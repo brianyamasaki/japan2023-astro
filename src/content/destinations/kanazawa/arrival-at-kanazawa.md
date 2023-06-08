@@ -3,14 +3,7 @@ destination: Kanazawa
 order: 1
 date: April 7, 2023
 title: Our First Time in Kanazawa
-subtitle: We missed the cherry tree blooms in Tokyo, but not in Takayama
-imgs: 
-  - src: /assets/kanazawa/PXL_20230411_043245440.jpg
-    comment: Selfie at a restaurant in the train station
-  - src: /assets/kanazawa/PXL_20230411_092621024.jpg
-    comment: This is a digital sign using little water fountains as pixels
-  - src: /assets/kanazawa/PXL_20230411_092702689.jpg
-    comment: We're taking a selfie in front of the famous Takayama wooden gate at the train station.
+nextTitle: Arriving in Kanazawa
 transport: /assets/kanazawa/traportTickets.jpg
 ---
 

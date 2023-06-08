@@ -3,18 +3,7 @@ destination: Takayama
 order: 70
 date: April 7, 2023
 title: The Fire Station
-subtitle: Hmmm
-imgs: 
-  - src: /assets/takayama/PXL_20230411_002613029.jpg
-    comment: A Big Fire Station
-  - src: /assets/takayama/PXL_20230411_002743136.jpg
-    comment: A really old fire truck
-  - src: /assets/takayama/PXL_20230411_002804206.jpg
-    comment: Display inside the fire station
-  - src: /assets/takayama/PXL_20230411_003551903.MP.jpg
-    comment: The local town logo
-  - src: /assets/takayama/PXL_20230411_003754893.jpg
-    comment: Nancy meets a firefighter
+nextTitle: Takayama Fire Station
 ---
 
 # The Fire Station
