@@ -4,7 +4,7 @@ order: 1
 date: April 7, 2023
 title: Our First Time in Kanazawa
 nextTitle: Arriving in Kanazawa
-transport: /assets/kanazawa/traportTickets.jpg
+transport: /assets/kanazawa/transportTickets.jpg
 ---
 
 # Our First Time in Kanazawa

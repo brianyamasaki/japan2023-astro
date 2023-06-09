@@ -4,7 +4,6 @@ order: 1
 date: April 4, 2023
 title: Arriving in Miyajima
 nextTitle: Arriving in Miyajima
-transport: /assets/miyajima/transportTickets.jpg
 ---
  
 # Arriving in Miyajima
