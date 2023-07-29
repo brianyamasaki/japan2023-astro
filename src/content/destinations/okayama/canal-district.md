@@ -18,6 +18,8 @@ A view of the canal in Kurashiki Historical District.
 
 The Ohara Museum of Art is the rare private museum in Japan that owns authentic artworks from European masters Monet, Pisarro, Rodin and more.
 
+![The Ohara Museum of Art](/assets/okayama/Ohara-Museum-of-Art.jpg)
+
 ![European architecture](/assets/okayama/PXL_20230419_014226500.jpg)
 
 The museum architecture is distinctly European. This building could be standing in Athens, Greece or Italy.
